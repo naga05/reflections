@@ -23,8 +23,16 @@ Branches are helpful when I want to ensure that the main, stable version of my c
 
 _**How do the diagrams help you visualize the branch structure?**_
 
+Diagrams help in visualizing what the parent of each commit is. When there are multiple branches, I can use a diagram to easily see what changes will be part of each branch.
+
 _**What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?**_
 
+Merging two branches together effectively forms a new branch, compiling all the commits of those two branches. We represent the merge in the diagram as having two parents because we’re taking the commits of each branch and merging them together, thereby creating a third branch, which would be those two branches’ child.
+
 _**What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?**_
+
+Git’s automatic merging probably saves us a lot of time especially if we’ll be collaborating with different people, compared to manually merging.
+
+However, a downside of this automatic merging might be if one collaborator accidentally deleted a key component of one branch, while a second branch’s code depended on that key component, I believe those two branches would be merged and the result would be a broken code.
