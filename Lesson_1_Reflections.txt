@@ -1,0 +1,64 @@
+**Lesson 1 Reflections**
+
+======================
+
+_**How did viewing a diff between two versions of a file help you see the bug
+that was introduced?**_
+
+Using a diff to compare the two files certainly made things a whole lot easier
+than having to manually compare line by line.
+
+Having used Mac's Terminal sparsely over the years, I'm quite excited at the
+chance to learn how to use it, especially at learning to execute commands and
+whatever else I am going to learn this lesson :)
+
+_**How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?**_
+
+Having such easy access to the whole history of a file, I imagine, would cut
+down the amount of hours necessary to proofread the file, especially if it
+starts to get over five hundred lines or into the thousands of lines.
+
+It would save time to find an older version of my code after I've noticed a bug
+in a newer version. Also, being able to view an earlier version of a file might
+remind me of something that I forgot to add on in a later version or vice versa.
+
+_**What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?**_
+
+Pros:
+* Each change would be succinct, alleviating any confusion about the change
+history of a file.
+* I can save whenever I want.
+
+Cons:
+* I might forget to commit when I should as sometimes I get too much 'in the
+groove' and carried away with my ideas.
+* Having forgotten when to commit, I might be working on the next feature or
+two to three features down the road, so to speak, before I remember I should
+have made a commit.
+
+_**Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?**_
+
+I imagine Git is more geared towards coding and programming, where it makes
+sense if multiple files belong to a logical group, whereas Google Docs is more
+for prose writing, where each file might makes sense both as a group but
+individually as well (e.g. chapters of a novel)
+
+_**How can you use the commands git log and git diff to view the history of
+files?**_
+
+* git log is used to list all the summaries of all the changes made to a
+repository.
+*git diff can be used to see what exactly changed between two given commits.
+
+_**How might using version control make you more confident to make changes that
+could break something?**_
+
+You could definitely do a whole lot of trial & error knowing that if you break
+your file somehow, you could always revert to an older, stable version.
+
+_**Now that you have your workspace set up, what do you want to try using Git for?**_
