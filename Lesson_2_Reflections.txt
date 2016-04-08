@@ -14,10 +14,12 @@ The staging area is a middle transition point in between the working directory a
 _**How can you use the staging area to make sure you have one commit per logical
 change?**_
 
-
+I can compare the contents of the staging area to that of the working directory and the most recent commit. In doing so, I can make sure my commits are logically separate because I can compare my files before I make any commits.
 
 _**What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?**_
+
+Branches are helpful when I want to ensure that the main, stable version of my code remains that way, while I create another branch to work on an experimental feature or possibly something that might break my stable version. In which case, I could create another branch to test out these experimental features without worrying about breaking my entire code with irreversible consequences.
 
 _**How do the diagrams help you visualize the branch structure?**_
 
